@@ -1,0 +1,134 @@
+*
+{
+	padding: 0;
+	margin: 0;
+
+}.header{
+	background-color:#009688;
+	color: white;
+}
+.heading{
+	height: 140px;
+}
+.top{
+	float: right;
+	color: white;
+	padding:35px 30px 0;
+}
+h1{
+	display: inline-block;
+	width: 30%;
+	font-size: 3rem;
+	margin-top: 35px;
+    margin-left: 35px;
+    font-family:Helvetica, sans-serif ;
+    
+}
+.camera{
+	color: #9adaba;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+.navigation{
+	height: 98px;
+}
+.navhead{
+	font-size: 2rem;
+	text-decoration: none;
+	color: #9adaba;
+	padding: 0 91px 30px;
+	font-family:Helvetica, sans-serif ;
+   
+
+}
+.active{
+	border-bottom: solid 8px white;
+	color: white;
+}
+img{
+	margin: 20px 10px 10px;
+	display: inline-block;
+	width: 15%;
+}
+ul{
+	display: inline-block;
+    float: right;
+    margin-top:40px;
+    padding-bottom: 30px;
+  	width: 80%;
+	list-style: none;
+	border-bottom: solid 1px grey;
+}
+li{
+	font-size: 2rem;
+	font-family:Helvetica, sans-serif ;
+    
+    line-height: 1.5;
+}
+.chatbox_down{
+	color:grey;
+}
+.chatbox_up{
+	font-size: 250%;
+}
+.recentupdates{
+	background-color: #dedbdb;
+	height: 80px;
+}
+h2{
+	font-size: 2.3rem;
+	font-family:Helvetica, sans-serif ;
+   
+    color: grey;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.callimg{
+	display: inline-block;
+	width: 10%;
+float: right;
+color: #009688;
+margin-top: 70px;
+}
+.callbox{
+	display: inline-block;
+    float: right;
+    margin-top:40px;
+    padding-bottom: 30px;
+  	width: 70%;
+	list-style: none;
+	border-bottom: solid 1px grey;
+}
+.incoming{
+	transform: rotate(135deg);
+	color: #45f345;
+}
+.outgoing{
+	transform: rotate(135deg);
+	color: red;
+}
+.incoming2{
+	transform: rotate(-45deg);
+	color: #45f345;
+}
+.outgoing2{
+	transform: rotate(-45deg);
+	color: red;
+}
+.topleftbox{
+    
+	background: white;
+	display: inline-block;
+	width: 50%;
+	position: fixed ;
+	right: 0px;
+}
+.topleftboxlist{
+	width: 90%;
+}
+.topleftboxlist li{
+	font-size: 3rem;
+	list-style: none;
+	line-height: 2.5;
+}
